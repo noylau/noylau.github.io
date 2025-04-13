@@ -14,4 +14,9 @@ deploy:
   repo: https://github.com/<username>/<repo>.git
   branch: main
 
+# 主题配置
+theme: fluid
+# 静态文件输出目录（默认应为 public）
+public_dir: public
+
 # 其他保持默认
