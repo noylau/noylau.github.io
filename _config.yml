@@ -1,1 +1,17 @@
-theme: jekyll-theme-cayman
+# Hexo 基础配置
+title: 我的博客
+subtitle: ''
+description: ''
+keywords: ''
+author: NoahLiu
+language: zh-CN
+timezone: ''
+theme: fluid  # 指定主题
+
+# 部署配置（Netlify 可忽略此项）
+deploy:
+  type: git
+  repo: https://github.com/<username>/<repo>.git
+  branch: main
+
+# 其他保持默认
